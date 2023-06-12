@@ -1,0 +1,72 @@
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+.icon {
+  width: 60px;
+  margin: auto;
+}
+
+.header {
+  padding-bottom: 150px;
+}
+
+.about-us {
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.program-section {
+  padding-bottom: 150px;
+}
+
+.exposition-section {
+  padding-bottom: 150px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn {
+  background-image: linear-gradient(
+    253deg,
+    #ff0000 0%,
+    #bc0052 32%,
+    #2e00ff 100%
+  );
+  border-radius: 35px;
+  width: 220px;
+  padding: 12px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 0;
+  text-align: center;
+  margin: auto;
+}
+
+.ticket-icon {
+  width: 100px;
+  margin: auto;
+}
+
+.ticket-section {
+  padding-bottom: 150px;
+}
+
+.filler-img {
+  padding-bottom: 150px;
+}
+
+.info-box {
+  padding-bottom: 150px;
+}
