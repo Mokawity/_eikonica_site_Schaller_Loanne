@@ -1,31 +1,69 @@
-.row + .row {
-  margin-top: 16px;
-}
-
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
-
 .icon {
   width: 60px;
   margin: auto;
 }
 
 .header {
+  padding-top: 30px;
+  background-color: black;
+  height: 700px;
+  color: white;
   padding-bottom: 150px;
+  font-size: 20px;
+}
+
+.nav {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .about-us {
+  padding-top: 100px;
   padding-bottom: 150px;
   text-align: center;
 }
 
+.about-us-title {
+  font-family: "field-gothic-compact", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.abt-us-txt {
+  padding-bottom: 40px;
+}
+
 .program-section {
   padding-bottom: 150px;
+  background-color: #f5f5f5;
+}
+
+.program-title {
+  font-family: "field-gothic-compact", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+.program-text {
+  padding-bottom: 60px;
+}
+
+.atelier-title {
+  font-family: "field-gothic-compact", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 35px;
+  padding-bottom: 50px;
+}
+
+.atelier-section {
+  padding-bottom: 60px;
 }
 
 .exposition-section {
@@ -35,23 +73,6 @@
 a {
   text-decoration: none;
   text-align: center;
-}
-
-.btn {
-  background-image: linear-gradient(
-    253deg,
-    #ff0000 0%,
-    #bc0052 32%,
-    #2e00ff 100%
-  );
-  border-radius: 35px;
-  width: 220px;
-  padding: 12px;
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.9);
-  letter-spacing: 0;
-  text-align: center;
-  margin: auto;
 }
 
 .ticket-icon {
@@ -83,4 +104,24 @@ a {
 
 .fribourg {
   height: 140px;
+}
+
+.btn {
+  background-image: linear-gradient(
+    253deg,
+    #ff0000 0%,
+    #bc0052 32%,
+    #2e00ff 100%
+  );
+  border-radius: 35px;
+  width: 250px;
+  padding: 12px;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 0;
+  font-family: "field-gothic-compact", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
 }
