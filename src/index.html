@@ -6,6 +6,7 @@
     <title>EIKONICA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="stylesheet" href="js/main.js" />
   </head>
   <body>
     <!-- HEADER -->
@@ -14,32 +15,45 @@
         <div class="row">
           <div class="nav">
             <div class="col-2">
-              <img src="../src/img/eikonica.webp" alt="" />
-            </div>
-            <div class="col-2">
-              <div class="nav-element">
-                <a href="programme">Programme</a>
+              <div class="logo-header">
+                <img src="../src/img/eikonica.webp" alt="logo" />
               </div>
             </div>
             <div class="col-2">
               <div class="nav-element">
-                <a href="expositions">Expositions</a>
+                <a href="#programme">Programme</a>
               </div>
             </div>
             <div class="col-2">
               <div class="nav-element">
-                <a href="info">Infos pratiques</a>
+                <a href="#exposition">Expositions</a>
               </div>
             </div>
             <div class="col-2">
               <div class="nav-element">
-                <a href="artenaires">Partenaires</a>
+                <a href="#info">Infos pratiques</a>
               </div>
             </div>
-            <div class="col-2">btn</div>
+            <div class="col-2">
+              <div class="nav-element">
+                <a href="#footer">Partenaires</a>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="dropdown">
+                <button class="dropbtn">Choix de langue</button>
+                <div class="dropdown-content">
+                  <a>FR</a>
+                  <a>GE</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <video autoplay loop muted class="header-video">
+        <source src="./video/VIDEO-TEST.mp4" type="video/mp4" />
+      </video>
     </div>
     <!-- HEADER -->
     <!-- A PROPOS -->
@@ -71,7 +85,7 @@
     </div>
     <!-- A PROPOS -->
     <!-- PROGRAMME -->
-    <div class="program-section">
+    <div id="programme" class="program-section">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
@@ -90,13 +104,19 @@
                 <div class="atelier-title">Nos ateliers :</div>
                 <div class="row">
                   <div class="col-4">
-                    <img src="../src/img/event-1.webp" alt="" />
+                    <div class="event-1">
+                      <img src="../src/img/event-1.webp" alt="" />
+                    </div>
                   </div>
                   <div class="col-4">
-                    <img src="../src/img/event-2.webp" alt="" />
+                    <div class="event-2">
+                      <img src="../src/img/event-2.webp" alt="" />
+                    </div>
                   </div>
                   <div class="col-4">
-                    <img src="../src/img/event-3.webp" alt="" />
+                    <div class="event-3">
+                      <img src="../src/img/event-3.webp" alt="" />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -153,27 +173,33 @@
     </div>
     <!-- IMG -->
     <!-- EXPO -->
-    <div class="exposition-section">
+    <div id="exposition" class="exposition-section">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
             <div class="exposition-title">EXPOSITIONS</div>
           </div>
           <div class="col-4">
-            <img src="../src/img/golden-ticket.webp" alt="" />
+            <div class="golden-ticket">
+              <img src="../src/img/golden-ticket.webp" alt="" />
+            </div>
           </div>
           <div class="col-4">
-            <img src="../src/img/red-ticket.webp" alt="" />
+            <div class="red-ticket">
+              <img src="../src/img/red-ticket.webp" alt="" />
+            </div>
           </div>
           <div class="col-4">
-            <img src="../src/img/blue-ticket.webp" alt="" />
+            <div class="blue-ticket">
+              <img src="../src/img/blue-ticket.webp" alt="" />
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- EXPO -->
     <!-- INFOS -->
-    <div class="info-section">
+    <div id="info" class="info-section">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
@@ -216,7 +242,7 @@
                   samedi. Réservation des billets
                   <br />sur le site
                   <a class="frison-web" href="https://www.fri-son.ch/de"
-                    >frison.ch.</a
+                    ><u>frison.ch.</u></a
                   >
                 </div>
               </div>
@@ -238,7 +264,7 @@
                     <br />L’entrée des concerts se monte à 15.- le vendredi et à
                     25.- le samedi. Réservation des billets <br />sur le site
                     <a class="frison-web" href="https://www.fri-son.ch/de"
-                      >frison.ch.</a
+                      ><u>frison.ch.</u></a
                     >
                   </div>
                 </div>
@@ -269,7 +295,7 @@
       </div>
       <!-- INFOS -->
       <!-- FOOTER -->
-      <div class="footer">
+      <div id="footer" class="footer">
         <div class="container-fluid">
           <div class="row">
             <div class="col-3">
@@ -282,7 +308,7 @@
             <div class="col-2">
               <div class="contact-row">
                 <div class="footer-contact">
-                  <a class="info-footer" href="">contact</a>
+                  <a class="info-footer" href=""><u>contact</u></a>
                 </div>
                 <div class="container-logo">
                   <div class="facebook-logo">
@@ -330,7 +356,7 @@
                   <div class="footer-txt">
                     © 2013 eikonica. Tous droits réservés.
                     <br /><a class="info-footer" href=""
-                      >informations légales</a
+                      ><u>informations légales</u></a
                     >
                   </div>
                 </div>

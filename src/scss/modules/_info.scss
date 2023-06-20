@@ -28,6 +28,12 @@
   margin: auto;
 }
 
-a {
-  text-decoration: none;
+.frison-web {
+  cursor: pointer;
+  color: rgb(69, 69, 224);
+  transition: color 0.3s ease;
+}
+
+.frison-web:hover {
+  color: red;
 }

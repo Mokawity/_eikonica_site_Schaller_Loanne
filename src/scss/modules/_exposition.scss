@@ -10,3 +10,51 @@
   font-size: 40px;
   padding-bottom: 100px;
 }
+
+.golden-ticket {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 1800px) {
+  .golden-ticket {
+    width: 400px;
+    margin: auto;
+  }
+}
+
+.golden-ticket:hover {
+  transform: scale(1.03);
+}
+
+.blue-ticket {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 1800px) {
+  .blue-ticket {
+    width: 400px;
+    margin: auto;
+  }
+}
+
+.blue-ticket:hover {
+  transform: scale(1.03);
+}
+
+.red-ticket {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 1800px) {
+  .red-ticket {
+    width: 400px;
+    margin: auto;
+  }
+}
+
+.red-ticket:hover {
+  transform: scale(1.03);
+}

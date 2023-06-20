@@ -27,3 +27,67 @@
 .atelier-section {
   padding-bottom: 60px;
 }
+
+.event-1 {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 1800px) {
+  .event-1 {
+    width: 380px;
+    margin: auto;
+  }
+}
+
+.event-1:hover {
+  transform: scale(1.03);
+}
+
+.event-2 {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 1800px) {
+  .event-2 {
+    width: 380px;
+    margin: auto;
+  }
+}
+
+.event-2:hover {
+  transform: scale(1.03);
+}
+
+.event-3 {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 1800px) {
+  .event-3 {
+    width: 380px;
+    margin: auto;
+  }
+}
+
+.event-3:hover {
+  transform: scale(1.03);
+}
+
+.atelier-section .col-4.appear,
+.exposition-section .col-4.appear {
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

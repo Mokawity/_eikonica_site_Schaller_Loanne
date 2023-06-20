@@ -4,7 +4,7 @@
 }
 
 .footer-txt {
-  padding-top: 50px;
+  padding-top: 80px;
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -17,7 +17,7 @@
 
 .container-logo {
   display: flex;
-  width: 60px;
+  width: 100px;
   justify-content: space-around;
 }
 
@@ -26,12 +26,17 @@
 }
 
 .facebook-logo {
-  width: 60px;
+  width: 100px;
   padding-right: 5px;
 }
 
 .linkedin-logo {
-  width: 60px;
+  width: 100px;
+  padding-left: 5px;
+}
+
+.insta-logo {
+  width: 100px;
   padding-left: 5px;
 }
 
@@ -57,14 +62,11 @@
 }
 
 .info-footer {
-  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  transition: color 0.3s ease;
 }
 
-.info-footer,
-a {
-  text-decoration: underline;
-}
-
-a {
-  text-decoration: none;
+.info-footer:hover {
+  color: red;
 }

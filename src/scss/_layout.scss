@@ -2,3 +2,13 @@ a {
   text-decoration: none;
   text-align: center;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 1600px) {
+  * {
+    font-size: 20px;
+  }
+}
