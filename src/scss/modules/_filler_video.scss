@@ -1,0 +1,12 @@
+.filler-video {
+  padding-top: 30px;
+  max-height: 200px;
+  padding-bottom: 150px;
+}
+
+.text-video {
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: opacity 0.5s;
+}

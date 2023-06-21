@@ -39,14 +39,20 @@ expoImages.forEach((image) => {
 window.addEventListener("scroll", function () {
   var header = document.querySelector(".header");
   var video = document.querySelector(".header-video");
+  var nav = document.querySelector(".nav");
 
-  // Calculate the threshold to hide the video based on the header's height
   var threshold = header.offsetHeight;
 
-  // Check if the scroll position has reached the threshold
   if (window.pageYOffset >= threshold) {
     video.classList.add("hide-video");
+    nav.style.opacity = "0";
   } else {
     video.classList.remove("hide-video");
+    nav.style.opacity = "1";
   }
+});
+
+document.getElementById("lang-toggle").addEventListener("click", function (e) {
+  e.preventDefault();
+  $(this).parent().toggleClass("is-open");
 });
